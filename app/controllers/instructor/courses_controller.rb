@@ -1,6 +1,7 @@
 class Instructor::CoursesController < ApplicationController
   before_action :authenticate_user!
   before_action :require_authorized_for_current_course, only: [:show]
+  self.per_form_csrf_tokens = true
 
   def new
     @course = Course.new
