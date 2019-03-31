@@ -5,7 +5,7 @@
   <% @course.each do |course| %>
     <h2 class="text-center"><%= link_to course.title, course_path(course) %></h2>
     <% if course.image.url %>
-      <%= image_tag course.image.url, class: 'img-fluid'%>
+      <%= image_tag course.image.url, class: 'img-fluid mx-auto d-block'%>
     <% end %>
     <br />
     <div class="row">
