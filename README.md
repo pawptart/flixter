@@ -1,24 +1,10 @@
-# README
+# Flixter
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Flixter is was built in Ruby on Rails 5.2.1 as part of a project for Vanderbilt University's Coding Bootcamp.
 
-Things you may want to cover:
+Flixter is a video sharing app designed to let instructors upload courses, lessons, and videos for learners to understand complicated topics. It is modeled after sites like Udemy or Coursera and hosts all its content on Amazon S3. Flixter uses Stripe to accept user payment (currently in a test account). 
 
-* Ruby version
+See Flixter in action [here](https://flixter-tyler-porter.herokuapp.com). 
 
-* System dependencies
+## TODO
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
